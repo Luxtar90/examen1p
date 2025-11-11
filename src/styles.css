@@ -1,0 +1,9 @@
+:root {
+  --bg: #f9fafb;
+  --fg: #111827;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+button { cursor: pointer; padding: 0.5rem 0.75rem; border-radius: 6px; border: none; background: #111827; color: #fff; }
+input, textarea { border: 1px solid #e5e7eb; border-radius: 6px; background: #fff; }
+code { background: #eee; padding: 0.1rem 0.25rem; border-radius: 4px; }
